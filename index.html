@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>SkillSphere AI 2.0 — Landing</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.0/firebase-app.js";
+  import { getFirestore, collection, addDoc, getDocs, query, where } from "https://www.gstatic.com/firebasejs/10.7.0/firebase-firestore.js";
+
+  const firebaseConfig = {
+    apiKey: "AIzaSyCQhLOHtHPJaVX8TnhnrHd0ej9L8LTWraw",
+    authDomain: "skillsphere-ai-8e4d6.firebaseapp.com",
+    projectId: "skillsphere-ai-8e4d6",
+    storageBucket: "skillsphere-ai-8e4d6.firebasestorage.app",
+    messagingSenderId: "169357920036",
+    appId: "1:169357920036:web:1f372123f4a0c683fcd5b1"
+  };
+
+  const app = initializeApp(firebaseConfig);
+  const db = getFirestore(app);
+
+</script>
+
+<body>
+<main class="container">
+<header class="top">
+<div class="brand">SkillSphere AI <span class="accent">2.0</span></div>
+<nav>
+<a href="recruiter.html">Recruiter Portal</a>
+<a href="jobseeker.html">Job Seeker Portal</a>
+</nav>
+</header>
+
+
+<section class="hero">
+<h1>Connecting Skills Beyond Borders</h1>
+<p>Free-tier Netlify + Firebase prototype. AI matchmaking via serverless Netlify functions (OpenAI).</p>
+<div class="cta-row">
+<a class="cta" href="recruiter.html">Post a Job (Recruiter)</a>
+<a class="cta hollow" href="jobseeker.html">Submit Profile (Seeker)</a>
+</div>
+</section>
+</main>
+<script src="app.js"></script>
+</body>
+</html>

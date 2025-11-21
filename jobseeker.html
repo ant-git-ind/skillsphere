@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Seeker — SkillSphere AI 2.0</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<main class="container">
+<header class="top">
+<div class="brand">SkillSphere AI <span class="accent">2.0</span></div>
+<nav>
+<a href="index.html">Home</a>
+<a href="recruiter.html">Recruiter</a>
+</nav>
+</header>
+
+
+<section class="panel">
+<h2>Job Seeker — Submit Profile</h2>
+<form id="seekerForm">
+<label>Full Name</label>
+<input id="name" required />
+
+
+<label>Email</label>
+<input id="email" type="email" required />
+
+
+<label>Skills (comma-separated)</label>
+<input id="sskills" placeholder="python, ml, nlp" required />
+
+
+<label>Degrees</label>
+<input id="degrees" />
+
+
+<label>Experience</label>
+<input id="sexp" />
+
+
+<button type="submit" class="btn">Submit Profile</button>
+</form>
+
+
+<h3>Your Matches</h3>
+<div id="seeker-matches"></div>
+</section>
+</main>
+<script src="app.js"></script>
+</body>
+</html>
