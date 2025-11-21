@@ -1,0 +1,25 @@
+{
+  "name": "skillsphere-build",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ant-git-ind/skillsphere.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ant-git-ind/skillsphere/issues"
+  },
+  "homepage": "https://github.com/ant-git-ind/skillsphere#readme",
+  "dependencies": {
+    "firebase-admin": "^13.6.0",
+    "openai": "^6.9.1"
+  }
+}
